@@ -10,6 +10,8 @@ public class ModItems {
 
     public static final Item RAW_TANZANITE = registerItem("raw_tanzanite",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item TANZANITE = registerItem("tanzanite",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static void registermoditems() {
         TutorialMod.LOGGER.debug("Registering Mod Items for " + TutorialMod.MOD_ID);
