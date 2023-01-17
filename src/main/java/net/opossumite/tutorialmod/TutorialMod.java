@@ -11,7 +11,7 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		// very important comment
+		ModItems.registermoditems();
 
 	}
 }
