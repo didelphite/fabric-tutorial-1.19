@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "cookingtime": 200,
   "experience": 0.7,
   "group": "tanzanite",
@@ -7,5 +7,4 @@
     "item": "tutorialmod:raw_tanzanite"
   },
   "result": "tutorialmod:tanzanite"
-
 }
