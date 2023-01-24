@@ -20,6 +20,7 @@ public class KeyInputHandler {
             if(drinkingKey.wasPressed()) {
                 // this happens when the custom key is pressed
                 // ClientPlayNetworking.send(ModMessages.EXAMPLE_ID, PacketByteBufs.create());
+                ClientPlayNetworking.send(ModMessages.DRINKING_ID, PacketByteBufs.create());
 
             }
         });
