@@ -21,6 +21,9 @@
   "key.category.tutorialmod.tutorial": "Tutorial Mod Keybindings",
   "key.tutorialmod.drink_water": "Drink Water Key",
 
+  "message.tutorialmod.drank_water": "Drank Water!",
+  "message.tutorialmod.no_water": "No Water Nearby!",
+
 
 
 

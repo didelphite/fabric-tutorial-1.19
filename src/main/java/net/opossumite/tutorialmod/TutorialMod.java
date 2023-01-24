@@ -3,6 +3,7 @@ package net.opossumite.tutorialmod;
 import net.fabricmc.api.ModInitializer;
 import net.opossumite.tutorialmod.block.ModBlocks;
 import net.opossumite.tutorialmod.item.ModItems;
+import net.opossumite.tutorialmod.networking.ModMessages;
 import net.opossumite.tutorialmod.painting.ModPaintings;
 import net.opossumite.tutorialmod.util.ModLootTableModifiers;
 import net.opossumite.tutorialmod.villager.ModVillagers;
@@ -30,5 +31,7 @@ public class TutorialMod implements ModInitializer {
 		ModConfiguredFeatures.registerConfiguredFeatures();
 
 		ModLootTableModifiers.modifyLootTables();
+
+		ModMessages.registerC2SPackets();
 	}
 }

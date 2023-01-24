@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 import net.opossumite.tutorialmod.block.ModBlocks;
 import net.opossumite.tutorialmod.event.KeyInputHandler;
+import net.opossumite.tutorialmod.networking.ModMessages;
 
 public class TutorialModClient implements ClientModInitializer {
     @Override
@@ -12,5 +13,7 @@ public class TutorialModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EGGPLANT_CROP, RenderLayer.getCutout());
 
         KeyInputHandler.register();
+
+        ModMessages.registerS2CPackets();
     }
 }
